@@ -26,6 +26,7 @@ function App() {
       <Route exact path="/signin" component = {signin} />
       <Route exact path="/signup" component = {signup} />
       <Route exact path="/donationlisst" component = {donationlisst} />
+      <Route exact path="/portalpage" component = {PortalPage} />
       
     </div>
 };

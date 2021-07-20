@@ -1,11 +1,10 @@
-/*import React, { useState } from 'react';
+
 import PortalPageCSS from './PortalPage.module.css'
 
-function PortalPage()
+const PortalPage = () => 
 {
 
 return (
-  <React.Fragment>
 
 <div>
   <meta charSet="UTF-8" />
@@ -32,10 +31,8 @@ return (
       </div>
     </div>
   </div></div>
-  </React.Fragment>
 
-);
-
-}
-  export default PortalPage;
-*/
+  );
+};
+  
+export default PortalPage;

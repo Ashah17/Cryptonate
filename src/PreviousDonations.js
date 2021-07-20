@@ -1,10 +1,8 @@
-/*import React, { useState } from 'react';
 import PreviousDonationsCSS from './PreviousDonations.module.css';
 
-function PreviousDonations()
+const PreviousDonations = () => 
 {
   return (
-
 
 <div>
   <meta charSet="UTF-8" />
@@ -23,8 +21,7 @@ function PreviousDonations()
 
 </div>
 
-);
-}
+  );
+};
 
-export default PreviousDonations;
-*/
+export default PreviousDonations

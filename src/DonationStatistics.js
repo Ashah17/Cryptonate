@@ -1,4 +1,9 @@
-/*import DonationStatisticsCSS from './DonationStatistics.module.css';
+import DonationStatisticsCSS from './DonationStatistics.module.css';
+
+const DonationStatistics = () => 
+{
+
+return (
 
 <div>
   <meta charSet="UTF-8" />
@@ -36,5 +41,7 @@
       </li></ol>
   </div>
 </div>
+  );
+};
 
-export default DonationStatistics*/
+export default DonationStatistics;

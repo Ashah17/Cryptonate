@@ -1,4 +1,4 @@
-body {
+.body {
     background:lightblue;
   }
   
@@ -16,7 +16,7 @@ body {
     position:relative;
   }
   
-  div h1 
+  .div h1 
   {
     background: #466D1D;
     width: 400px;
@@ -29,7 +29,7 @@ body {
     margin-top: 20px;
   }
   
-  a
+  .a
   {
     color:white;
     font-style:none;
@@ -37,14 +37,14 @@ body {
   }
   
   
-  div h2
+  .div h2
   {
     margin-left:260px;
     margin-top:75px;
     font-size: 96px;
     color: darkgrey;
   }
-  div h1:hover
+  .div h1:hover
   {
     background-color:grey;
     cursor:pointer;

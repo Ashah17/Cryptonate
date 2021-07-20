@@ -21,6 +21,9 @@ const Navigation = () => {
         <li>
         <Link to ="/contact">Contact</Link>
         </li>
+        <li>
+        <Link to ="/portalpage">Portal</Link>
+        </li>
         <li style={{ float: 'right' }}>
         <Link to ="/signin">Login</Link>
         </li>

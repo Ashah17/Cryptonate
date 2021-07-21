@@ -1,18 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
-import AccountInfo from './AccountInfo';
-import Contact from './Contact';
-import CreateDonation from './CreateDonation';
-import Home from './Home';
-import Navigation from './Navigation';
-import SpecificDonation from './SpecificDonation';
-import TeamPage from './TeamPage';
-import PortalPage from './PortalPage';
-import PreviousDonations from './PreviousDonations';
-import DonationStatistics from './DonationStatistics';
-import signin from './signin';
-import signup from './signup';
-import donationlisst from './donationlisst';
+import AccountInfo from './components/AccountInfo';
+import Contact from './components/Contact';
+import CreateDonation from './components/CreateDonation';
+import Home from './components/Home';
+import Navigation from './components/Navigation';
+import SpecificDonation from './components/SpecificDonation';
+import TeamPage from './components/TeamPage';
+import PortalPage from './components/PortalPage';
+import PreviousDonations from './components/PreviousDonations';
+import DonationStatistics from './components/DonationStatistics';
+import signin from './components/signin';
+import signup from './components/signup';
+import donationlisst from './components/donationlisst';
 import { Route, Link } from 'react-router-dom';
 
 function App() {

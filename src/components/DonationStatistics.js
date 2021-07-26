@@ -4,12 +4,12 @@ const DonationStatistics = () =>
 {
 
 return (
-
 <div>
   
   <div className={DonationStatisticsCSS.yourStatistics}>
     <h1>Your Donation Statistics</h1>
   </div>
+
   <div className={DonationStatisticsCSS.statsBox}>
 
     <div className={DonationStatisticsCSS.totalDonation}>   
@@ -25,8 +25,10 @@ return (
       <h2>Places your money has traveled:</h2>
     </div>
   </div>
+
   <div className={DonationStatisticsCSS.leaderboard}>
     <h4>You and your friends!</h4>
+    
     <ol className={DonationStatisticsCSS.leaderboardList}>
       <li>YOU: $...</li><li>
       </li><li>Number three: $...</li><li>

@@ -7,6 +7,17 @@
   padding-left:50px;
 }
 
+.leaderboard
+{
+  background:white;
+  position:relative;
+  height:400px;
+  width:300px;
+  margin-left:1000px;
+  border: 10px ridge darkgrey;
+  top:-419px;
+}
+
 .leaderboard h4
 {
   padding-left:60px;
@@ -22,7 +33,7 @@
   border:ridge darkgrey 10px;
 }
 
-.div h2
+.totalDonation, .peopleReached, .familiesImpacted, .placesTraveled
 {
   position:relative;
   padding-left:50px;

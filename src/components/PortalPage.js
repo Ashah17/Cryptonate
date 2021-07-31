@@ -9,7 +9,7 @@ return (
 <div>
 
   <div className = {PortalPageCSS.titleScreen}>
-    <h2>Your Donation Portal</h2>
+    <h1>Your Donation Portal</h1>
   </div>
 
     <div className = {PortalPageCSS.portalBox}>

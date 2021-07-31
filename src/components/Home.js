@@ -1,7 +1,7 @@
 const Home = () => {
     return (
       <div class="container">
-        <h1>Home</h1>
+        <h1>Cryptonate</h1>
         <p>
           "At vero eos et accusamus et iusto odio dignissimos ducimus qui
           blanditiis praesentium voluptatum deleniti atque corrupti quos dolores

@@ -6,24 +6,26 @@ const PortalPage = () =>
 
 return (
 
-<div>
+<div className = {PortalPageCSS.body}>
 
-  <div className = {PortalPageCSS.titleScreen}>
+  <div className = {PortalPageCSS.yourportaltext}>
     <h1>Your Donation Portal</h1>
+    <h2>Welcome to the donation portal. Donation has never been simpler, and this is the heart of your donations! 
+      Choose an option to get started</h2>
   </div>
 
     <div className = {PortalPageCSS.portalBox}>
 
       <div className = {PortalPageCSS.trackDonations}>
-        <h1><Link to = "/PreviousDonations">Track previous donations</Link></h1>
+        <button><Link to = "/PreviousDonations">Track previous donations</Link></button>
       </div>
 
       <div className = {PortalPageCSS.newDonation}>
-        <h1><Link to = "/CreateDonation">Begin a new donation</Link></h1>
+        <button><Link to = "/CreateDonation">Begin a new donation</Link></button>
       </div>
 
       <div className = {PortalPageCSS.statistics}>
-        <h1><Link to = "/DonationStatistics">View your donation statistics</Link></h1>
+        <button><Link to = "/DonationStatistics">View your donation statistics</Link></button>
       </div>
 
     </div>

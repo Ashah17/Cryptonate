@@ -1,14 +1,23 @@
 import DonationStatisticsCSS from './DonationStatistics.module.css';
+import {Link} from 'react-router-dom';
 
 const DonationStatistics = () => 
 {
 
 return (
+
+
 <div>
-  
-  <div className={DonationStatisticsCSS.yourStatistics}>
-    <h1>Your Donation Statistics</h1>
-  </div>
+
+<div className = {DonationStatisticsCSS.body}>
+
+<div className = {DonationStatisticsCSS.yourportaltext}>
+  <h1>Your Donation Statistics</h1>
+  <h2>Welcome to your donation stats. See the impact you've made, and be proud of yourself. 
+    Celebrate, you deserve it!</h2>
+</div>
+
+  <div className = {DonationStatisticsCSS.portalBox}>
 
   <div className={DonationStatisticsCSS.statsBox}>
 
@@ -37,6 +46,21 @@ return (
       </li><li>Number nine: $...</li><li>
       </li></ol>
   </div>
+    </div>
+
+    <div className = {DonationStatisticsCSS.buttonGroup}>
+      <button><Link to = "/PreviousDonations">Track previous donations</Link></button>
+
+      <button><Link to = "/CreateDonation">Begin a new donation</Link></button>
+
+      <button><Link to = "/DonationStatistics">View your donation statistics</Link></button>
+    </div>
+
+</div>
+
+  
+  
+  
 </div>
   );
 };

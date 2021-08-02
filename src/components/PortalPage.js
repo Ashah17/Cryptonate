@@ -10,25 +10,21 @@ return (
 
   <div className = {PortalPageCSS.yourportaltext}>
     <h1>Your Donation Portal</h1>
-    <h2>Welcome to the donation portal. Donation has never been simpler, and this is the heart of your donations! 
+    <h2>Welcome to the donation portal. Donating has never been more efficient, and this is the heart of your donations! 
       Choose an option to get started</h2>
   </div>
 
     <div className = {PortalPageCSS.portalBox}>
+    </div>
 
-      <div className = {PortalPageCSS.trackDonations}>
+      <div className = {PortalPageCSS.buttonGroup}>
         <button><Link to = "/PreviousDonations">Track previous donations</Link></button>
-      </div>
 
-      <div className = {PortalPageCSS.newDonation}>
         <button><Link to = "/CreateDonation">Begin a new donation</Link></button>
-      </div>
 
-      <div className = {PortalPageCSS.statistics}>
         <button><Link to = "/DonationStatistics">View your donation statistics</Link></button>
       </div>
 
-    </div>
   </div>
 
   );

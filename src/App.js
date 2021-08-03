@@ -14,7 +14,7 @@ import signin from './components/signin';
 import signup from './components/signup';
 import donationlisst from './components/donationlisst';
 import { Route, Link } from 'react-router-dom';
-import axios from 'axios';
+import createAuth0Client from '@auth0/auth0-spa-js';
 
 function App() {
   return <div className="App">

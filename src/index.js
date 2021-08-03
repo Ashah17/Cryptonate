@@ -4,12 +4,15 @@ import indexCSS from './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {BrowserRouter} from 'react-router-dom';
+import Auth0ProviderWithHistory from './auth/auth0-provider-with-history';
 
 <div className = {indexCSS.body}></div>
   
 ReactDOM.render(
   <BrowserRouter>
-    <App />
+    <Auth0ProviderWithHistory>
+      <App />
+    </Auth0ProviderWithHistory>
   </BrowserRouter>,
    
   document.getElementById('root')

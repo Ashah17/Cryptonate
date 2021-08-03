@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import signInCSS from './signIn.module.css'
+import signInCSS from './signIn.module.css';
+import { Link } from 'react-router-dom';
 
 function Signin() {
     return (
@@ -20,6 +21,9 @@ function Signin() {
                             <div class="form-text">
                                 You agree to TFG's Conditions of Use and Privacy Notice.
                             </div>
+                            <button class="signUpInstead">
+                                <Link to = 'signup'>Don't have an account? Sign up here! </Link>
+                            </button>
                          </form>
                     </div>
                 </div>

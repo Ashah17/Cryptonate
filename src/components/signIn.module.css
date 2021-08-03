@@ -10,4 +10,10 @@
      content:'\A';
      white-space: pre;
    }
+
+   #signUpInstead
+   {
+     margin-top: 40px;
+     font-family: 'Poppins', sans-serif;
+   }
    

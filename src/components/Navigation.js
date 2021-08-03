@@ -1,6 +1,6 @@
 
 import NavCSS from './Navigation.module.css';
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const Navigation = () => {
   return (
@@ -24,11 +24,11 @@ const Navigation = () => {
         <li>
           <Link to ="/portalpage">Portal</Link>
         </li>
-        <li style={{ float: 'right' }}>
-          <Link to ="/signin">Login</Link>
+        <li>
+          <Link to ="donationlisst">Donation List</Link>
         </li>
         <li style={{ float: 'right' }}>
-          <Link to ="/signup">Sign up</Link>
+          <Link to ="/signin">Sign-In/Sign-Up</Link>
         </li>
       </ul>
     </nav>

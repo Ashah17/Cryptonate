@@ -28,7 +28,10 @@ const Navigation = () => {
           <Link to ="donationlisst">Donation List</Link>
         </li>
         <li style={{ float: 'right' }}>
-          <Link to ="/signin">Sign-In/Sign-Up</Link>
+          <Link to ="/newSignIn">Sign-In</Link>
+        </li>
+        <li style={{ float: 'right' }}>
+          <Link to ="/newSignUp">Sign-Up</Link>
         </li>
       </ul>
     </nav>

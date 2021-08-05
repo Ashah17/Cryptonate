@@ -15,6 +15,9 @@ import signup from './components/signup';
 import donationlisst from './components/donationlisst';
 import { Route, Link } from 'react-router-dom';
 import createAuth0Client from '@auth0/auth0-spa-js';
+import newSignIn from './components/newSignIn';
+import newSignUp from './components/newSignUp';
+
 
 function App() {
   return <div className="App">
@@ -31,6 +34,8 @@ function App() {
       <Route exact path ="/createdonation" component = {CreateDonation}/>
       <Route exact path ="/previousdonations" component = {PreviousDonations}/>
       <Route exact path ="/donationstatistics" component = {DonationStatistics}/>
+      <Route exact path ="/newSignIn" component = {newSignIn}/>
+      <Route exact path ="/newSignUp" component = {newSignUp}/>
       
     </div>
 };
